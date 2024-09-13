@@ -84,8 +84,8 @@
                   <img src="images/logo.svg" alt="Logo">
               </a>
               <!-- Navbar Toggler for Mobile View -->
-              <button class="navbar-toggler text-white border-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
+              <button class="navbar-toggler text-white border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                <span class="navbar-toggler-icon"> </span>
               </button>
               <!-- Navbar Links -->
               <div class="collapse navbar-collapse" id="navbarNav">
@@ -206,9 +206,30 @@
     <!-- End Footer  -->
 
     <!-- Start Sidebar  -->
-    <script>
-      includeSidebar();
-    </script>
+      <!--========= start sidebar  =========-->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasWithBothOptionsLabel">
+  <div class="offcanvas-header bg-white">
+  <button type="button" class="btn-close text-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  <h1 class="text-primary">Pool BHR</h1>
+  </div>
+  <div class="offcanvas-body bg-white hover-links">
+    <ul class="navbar-nav ms-auto me-auto mb-lg-0 d-flex px-3">
+      <li class="nav-item fw-bold ">
+          <a class="nav-link text-primary active link-secondary" href="index.html">الصفحة الرئيسية</a>
+      </li>
+      <li class="nav-item fw-bold ">
+          <a class="nav-link text-primary active link-secondary" href="rest-areas.html">الأستراحات</a>
+      </li>
+      <li class="nav-item fw-bold ">
+          <a class="nav-link text-primary active link-secondary" href="about-us.html">من نحن</a>
+      </li>
+      <li class="nav-item fw-bold ">
+          <a class="nav-link text-primary active link-secondary" href="contact-us.html">تواصل معنا</a>
+      </li>
+    </ul>
+  </div>
+</div>
+<!--========= end sidebar  =========-->
     <!-- End Sidebar  -->
 
     <!--====== BACK TO TP PART START ======-->
