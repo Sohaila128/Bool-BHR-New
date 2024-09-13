@@ -164,7 +164,7 @@ function MainFooter() {
       </div>
     </div>
       <hr class="text-white border-white"/>
-    <div class="d-flex align-items-start justify-content-between flex-wrap flex-column flex-md-row">
+    <div class="d-flex align-items-start justify-content-between flex-column flex-md-row">
       <div class="d-flex align-items-center">
         <div>
           <img src="images/location.svg" alt="">
