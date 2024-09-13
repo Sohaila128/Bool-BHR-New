@@ -339,7 +339,55 @@ article {
   background-color: $primaryColor !important;
 }
 // back-to-top
+// .back-to-top {
+//   position: fixed !important;
+//   width: 45px !important;
+//   height: 45px !important;
+//   bottom: 20px !important;
+//   right: 10px !important;
+//   background-color: $primaryColor !important;
+//   color: #FFF !important;
+//   border-radius: 50px !important;
+//   font-size: 20px !important;
+//   display: none ;
+//   z-index: 2 !important;
+//   justify-content: center !important;
+//   align-items: center !important;
+//   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+//   img {
+//     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(162deg) brightness(101%) contrast(104%);
+// }
+// &:hover {
+//   background-color: $primaryColor;
+// }
+// }
+
+// .btn-phone i {
+//   line-height: 1;
+// }
+
+// ====whats-app===
+// .whats-app {
+//   position: fixed !important;
+//   width: 45px !important;
+//   height: 45px !important;
+//   bottom: 70px !important;
+//   right: 10px !important;
+//   background-color:$primaryColor !important;
+//   color: #FFF !important;
+//   border-radius: 50px !important;
+//   font-size: 23px !important;
+//   z-index: 4 !important;
+//   display: flex !important;
+//   justify-content: center !important;
+//   align-items: center !important;
+//   border:none !important;
+// }
+
 .back-to-top {
+  display: none;
+  justify-content: center !important;
+  align-items: center !important;
   position: fixed !important;
   width: 45px !important;
   height: 45px !important;
@@ -349,37 +397,36 @@ article {
   color: #FFF !important;
   border-radius: 50px !important;
   font-size: 20px !important;
-  display: none ;
   z-index: 2 !important;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.back-to-top img {
+  line-height: 1 !important;
+  // display: block;
+  margin: 0 !important;
+      filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(162deg) brightness(101%) contrast(104%);
+
+}
+.whats-app {
+  display: flex !important;
   justify-content: center !important;
   align-items: center !important;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
-  img {
-    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(162deg) brightness(101%) contrast(104%);
-}
-&:hover {
-  background-color: $primaryColor;
-}
-}
-
-.btn-phone i {
-  line-height: 1;
-}
-
-// ====whats-app===
-.whats-app {
   position: fixed !important;
   width: 45px !important;
   height: 45px !important;
   bottom: 70px !important;
   right: 10px !important;
-  background-color:$primaryColor !important;
+  background-color: $primaryColor !important;
   color: #FFF !important;
   border-radius: 50px !important;
   font-size: 23px !important;
   z-index: 4 !important;
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-  border:none !important;
+  border: none !important;
+}
+
+.whats-app i {
+  line-height: 1 !important;
+  display: block;
+  margin: auto;
 }
