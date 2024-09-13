@@ -172,10 +172,10 @@ function MainFooter() {
       <span class="text-white mx-1 mt-1"> مملكة البحرين</span> 
       </div>
       <div class="">
-        <span class="text-white fw-normal"> Powered By <a target="_blank" href="https://www.linkedin.com/in/sohaila-abo-el-wafa-a2b417248/" class="fw-semibold text-decoration-none fw-normal text-white">  Sohaila Abo El-Wafa</a></span>
+        <span style="white-space:nowrap; class="text-white fw-normal"> Powered By <a target="_blank" href="https://www.linkedin.com/in/sohaila-abo-el-wafa-a2b417248/" class="fw-semibold text-decoration-none fw-normal text-white">  Sohaila Abo El-Wafa</a></span>
       </div>
       <div class="">
-        <span class="text-white fw-normal"> جميع الحقوق محفوظة لدي   <span class="fw-semibold fw-normal text-white">برك البحرين</span> @2024 </span>
+        <span style="white-space:nowrap; class="text-white fw-normal"> جميع الحقوق محفوظة لدي   <span class="fw-semibold fw-normal text-white">برك البحرين</span> @2024 </span>
       </div>
     </div>
   </div>
@@ -224,7 +224,7 @@ function BtnBackToTop() {
 }
 function WhatsApp() {
   document.write(`
-  <a href="" class="whats-app btn btn-info py-2 px-2 rounded-circle" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Whatsapp">
+  <a href="https://wa.me/+97334479384" class="whats-app btn btn-info py-2 px-2 rounded-circle" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Whatsapp">
   <i class="bi bi-whatsapp my-float"></i>
   </a>  
   `);

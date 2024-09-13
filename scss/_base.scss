@@ -349,7 +349,7 @@ article {
   color: #FFF !important;
   border-radius: 50px !important;
   font-size: 20px !important;
-  display: none !important;
+  display: none ;
   z-index: 2 !important;
   justify-content: center !important;
   align-items: center !important;
@@ -376,7 +376,6 @@ article {
   background-color:$primaryColor !important;
   color: #FFF !important;
   border-radius: 50px !important;
-  text-align: center !important;
   font-size: 23px !important;
   z-index: 4 !important;
   display: flex !important;
