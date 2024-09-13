@@ -91,19 +91,19 @@ nav ul li a:hover::after {
 }
 
 .back-to-top {
-  position: fixed;
-  width: 45px;
-  height: 45px;
-  bottom: 20px;
-  right: 10px;
-  background-color: #1193BB;
-  color: #FFF;
-  border-radius: 50px;
+  position: fixed !important;
+  width: 45px !important;
+  height: 45px !important;
+  bottom: 20px !important;
+  right: 10px !important;
+  background-color: #1193BB !important;
+  color: #FFF !important;
+  border-radius: 50px !important;
   font-size: 20px !important;
   display: none;
   z-index: 2;
-  justify-content: center;
-  align-items: center;
+  justify-content: center !important;
+  align-items: center !important;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
 }
 .back-to-top img {
@@ -119,20 +119,20 @@ nav ul li a:hover::after {
 
 .whats-app {
   position: fixed;
-  width: 45px;
-  height: 45px;
-  bottom: 70px;
-  right: 10px;
-  background-color: #1193BB;
-  color: #FFF;
-  align-items: center;
-  border-radius: 50px;
-  text-align: center;
-  font-size: 23px;
-  z-index: 4;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 45px !important;
+  height: 45px !important;
+  bottom: 70px !important;
+  right: 10px !important;
+  background-color: #1193BB !important;
+  color: #FFF !important;
+  align-items: center !important;
+  border-radius: 50px !important;
+  text-align: center !important;
+  font-size: 23px !important;
+  z-index: 4 !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
   border: none !important;
 }
 
