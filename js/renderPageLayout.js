@@ -213,7 +213,6 @@ function includeSidebar() {
 }
 
 
-
 function BtnBackToTop() {
   document.write(`
   <button
@@ -230,13 +229,3 @@ function WhatsApp() {
   </a>  
   `);
 }
-
-
-
-
-
-
-
-
-
-
