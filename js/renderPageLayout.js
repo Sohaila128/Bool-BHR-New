@@ -225,11 +225,16 @@ function BtnBackToTop() {
 }
 function WhatsApp() {
   document.write(`
-  <a href="https://wa.me/+97334479384" class="whats-app btn btn-info py-2 px-2 rounded-circle" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Whatsapp">
+  <a href="" class="whats-app btn btn-info py-2 px-2 rounded-circle" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Whatsapp">
   <i class="bi bi-whatsapp my-float"></i>
   </a>  
   `);
 }
+
+
+
+
+
 
 
 
