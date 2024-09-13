@@ -172,10 +172,10 @@ function MainFooter() {
       <span class="text-white mx-1 mt-1"> مملكة البحرين</span> 
       </div>
       <div class="">
-        <span style="white-space:nowrap;" class="text-white fw-normal"> Powered By <a target="_blank" href="https://www.linkedin.com/in/sohaila-abo-el-wafa-a2b417248/" class="fw-semibold text-decoration-none fw-normal text-white">  Sohaila Abo El-Wafa</a></span>
+        <span class="text-white fw-normal"> Powered By <a target="_blank" href="https://www.linkedin.com/in/sohaila-abo-el-wafa-a2b417248/" class="fw-semibold text-decoration-none fw-normal text-white">  Sohaila Abo El-Wafa</a></span>
       </div>
       <div class="">
-        <span style="white-space:nowrap;" class="text-white fw-normal"> جميع الحقوق محفوظة لدي   <span class="fw-semibold fw-normal text-white">برك البحرين</span> @2024 </span>
+        <span class="text-white fw-normal"> جميع الحقوق محفوظة لدي   <span class="fw-semibold fw-normal text-white">برك البحرين</span> @2024 </span>
       </div>
     </div>
   </div>
@@ -219,7 +219,7 @@ function BtnBackToTop() {
   <button
         type="button" title="Back to top"
         class="back-to-top btn btn- text-white rounded-circle py-2 px-2">
-  <img src="images/arrow-up.svg" class="mb-3" width="18" />
+  <img src="assets/images/arrow-up.svg" class="mb-3" width="18" />
   </button>  
   `);
 }
