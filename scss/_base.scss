@@ -133,14 +133,20 @@ nav ul li a {
 
 // FAQ
 .accordion-button::after {
-  margin-left: 0;
-  margin-right: auto;
+  // margin-left: 0;
+  // margin-right: auto;
   content: "";
+  display: none !important;
+}
+.accordion-button.collapsed {
+  border-radius: 0;
+  flex-wrap: wrap;
+  display: flex !important;
+  justify-content: flex-start !important;
 }
 .accordion-button:focus {
   background-color: $dangerColor !important;
   color: white !important;
-  z-index: 3;
   border-color: var(--bs-accordion-btn-focus-border-color);
   outline: 0;
   box-shadow: none !important;
