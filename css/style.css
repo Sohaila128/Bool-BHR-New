@@ -86,56 +86,6 @@ nav ul li a:hover::after {
   font-size: 14px !important;
 }
 
-.back-to-top:hover {
-  background-color: #1193BB !important;
-}
-
-.back-to-top {
-  position: fixed !important;
-  width: 45px !important;
-  height: 45px !important;
-  bottom: 20px !important;
-  right: 10px !important;
-  background-color: #1193BB !important;
-  color: #FFF !important;
-  border-radius: 50px !important;
-  font-size: 20px !important;
-  display: none;
-  z-index: 2;
-  justify-content: center !important;
-  align-items: center !important;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
-}
-.back-to-top img {
-  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(162deg) brightness(101%) contrast(104%);
-}
-.back-to-top:hover {
-  background-color: #1193BB;
-}
-
-.btn-phone i {
-  line-height: 1;
-}
-
-.whats-app {
-  position: fixed;
-  width: 45px !important;
-  height: 45px !important;
-  bottom: 70px !important;
-  right: 10px !important;
-  background-color: #1193BB !important;
-  color: #FFF !important;
-  align-items: center !important;
-  border-radius: 50px !important;
-  text-align: center !important;
-  font-size: 23px !important;
-  z-index: 4 !important;
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-  border: none !important;
-}
-
 .accordion-button::after {
   content: "";
   display: none !important;
@@ -383,4 +333,53 @@ article h1:after {
 
 .carousel-control-next span {
   background-image: url("../images/circle-arrow-down-01-round.svg") !important; /* رابط الصورة للزر التالي */
+}
+
+.back-to-top:hover {
+  background-color: #1193BB !important;
+}
+
+.back-to-top {
+  position: fixed !important;
+  width: 45px !important;
+  height: 45px !important;
+  bottom: 20px !important;
+  right: 10px !important;
+  background-color: #1193BB !important;
+  color: #FFF !important;
+  border-radius: 50px !important;
+  font-size: 20px !important;
+  display: none !important;
+  z-index: 2 !important;
+  justify-content: center !important;
+  align-items: center !important;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+.back-to-top img {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(162deg) brightness(101%) contrast(104%);
+}
+.back-to-top:hover {
+  background-color: #1193BB;
+}
+
+.btn-phone i {
+  line-height: 1;
+}
+
+.whats-app {
+  position: fixed !important;
+  width: 45px !important;
+  height: 45px !important;
+  bottom: 70px !important;
+  right: 10px !important;
+  background-color: #1193BB !important;
+  color: #FFF !important;
+  border-radius: 50px !important;
+  text-align: center !important;
+  font-size: 23px !important;
+  z-index: 4 !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  border: none !important;
 }
