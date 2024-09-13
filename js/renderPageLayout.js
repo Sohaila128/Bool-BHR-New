@@ -171,10 +171,10 @@ function MainFooter() {
         </div>
       <span class="text-white mx-1 mt-1"> مملكة البحرين</span> 
       </div>
-      <div class="">
+      <div class="text-white">
         <span style="white-space:nowrap; class="text-white fw-normal"> Powered By <a target="_blank" href="https://www.linkedin.com/in/sohaila-abo-el-wafa-a2b417248/" class="fw-semibold text-decoration-none fw-normal text-white">  Sohaila Abo El-Wafa</a></span>
       </div>
-      <div class="">
+      <div class="text-white">
         <span style="white-space:nowrap; class="text-white fw-normal"> جميع الحقوق محفوظة لدي   <span class="fw-semibold fw-normal text-white">برك البحرين</span> @2024 </span>
       </div>
     </div>
