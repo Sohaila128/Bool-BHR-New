@@ -86,7 +86,7 @@ nav ul li a {
 .fs-14{
   font-size: 14px !important;
 }
-// back-to-top
+// Back-to-top button styling
 .back-to-top {
   position: fixed;
   width: 45px;
@@ -102,26 +102,24 @@ nav ul li a {
   justify-content: center;
   align-items: center;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+
   img {
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(162deg) brightness(101%) contrast(104%);
-}
-&:hover {
-  background-color: $primaryColor;
-}
+  }
 }
 
 .btn-phone i {
   line-height: 1;
 }
 
-// ====whats-app===
+// WhatsApp button styling
 .whats-app {
   position: fixed;
   width: 45px;
   height: 45px;
   bottom: 70px;
   right: 10px;
-  background-color:$primaryColor;
+  background-color: $primaryColor;
   color: #FFF;
   align-items: center;
   border-radius: 50px;
@@ -131,9 +129,8 @@ nav ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
-  border:none !important;
+  border: none !important;
 }
-
 // FAQ
 .accordion-button::after {
   // margin-left: 0;

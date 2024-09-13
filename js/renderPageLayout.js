@@ -219,7 +219,7 @@ function BtnBackToTop() {
   <button
         type="button" title="Back to top"
         class="back-to-top btn btn- text-white rounded-circle py-2 px-2">
-  <img src="assets/images/arrow-up.svg" class="mb-3" width="18" />
+  <img src="images/arrow-up.svg" class="mb-3" width="18" />
   </button>  
   `);
 }
@@ -230,6 +230,7 @@ function WhatsApp() {
   </a>  
   `);
 }
+
 
 
 
